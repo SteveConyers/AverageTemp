@@ -1,17 +1,10 @@
-/* oneOther.cpp by Steven Conyers 4/06/2021 */
-
-/* Input:  Keyboard*/
-/* Output: Screen*/
-/* This program calculates each entry and finds the average. The input will come from the keyboard do to cin.
-The output will be sent to the screen from the cout statements. The first prompt will ask the user to enter a tempature.
-Integers between zero and one hundred (0-100) must be used.
-Any integer that is beyond what is asked, output will display a message stating it is out of range.
-A  for.. while loop is used to get the data.
-If statements are used to count warm days and cold days with increment operator. 
-All entries are added up and an average is found */
+/* AverageTemp.cpp by Steven Conyers 
+Created: 4/06/2021
+Updated: 2/7/2024 */
 
 #include <iostream>
 #include <iomanip>			/* I/O library */
+
 using namespace std;
 
 int main()
@@ -67,8 +60,7 @@ if (temp[day] >= 70 && temp[day] <= 79)
 		else if (temp[day] >= 90 && temp[day] <= 99)
 		{
 			cout<<"Ya Mon! You're in Jamaican weather territory now."<<endl;
-			
-			}
+		}
 }
 cout<<endl<<endl;
 /*-----------------------------------------------------------------------------------------*/
