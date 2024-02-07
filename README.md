@@ -10,5 +10,6 @@ All entries are added up and an average is found, which will display on screen a
 
 Learned:
 1. C++ language
-2. Use of the I/O library from using #include <iomanip>
-3. For-while loops
+2. Use C++ with C
+3. Use of the I/O library from using #include <iomanip>
+4. For-while loops
