@@ -34,7 +34,7 @@ for(day=0; day<14; day++)
 		   {
 			   cout<<"Out of range. Enter 0 - 100 Only!"<<endl<<endl;
 			   }
-}while (day[temp] < 0 || day[temp] > 100);
+} while (day[temp] < 0 || day[temp] > 100);
 /*-----------------------------------------------------------------------------------------*/
 //Processing for entries
 total += temp[day];
