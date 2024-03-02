@@ -1,9 +1,9 @@
 /* AverageTemp.cpp by Steven Conyers 
 Created: 4/06/2021
-Updated: 2/7/2024 */
+Updated: 3/2/2024 */
 
 #include <iostream>
-#include <iomanip>			/* I/O library */
+#include <iomanip>  /* I/O library */
 
 using namespace std;
 
